@@ -7,6 +7,7 @@
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 import requests
 import json
+#!/usr/bin/python3
 
 # API URL to query
 api_url = "https://app.layer3.xyz/api/trpc/questSearch.search,collection.search,community.getCommunities?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22searchQuery%22%3Anull%2C%22filter%22%3A%7B%22sort%22%3A%22last_added%22%2C%22chainIds%22%3A%5B%5D%2C%22tab%22%3A%22quests%22%2C%22difficulties%22%3A%5B%5D%2C%22types%22%3A%5B%5D%2C%22rewards%22%3A%5B%5D%2C%22hideCompleted%22%3Afalse%2C%22hideUncompleted%22%3Afalse%2C%22hideExpired%22%3Atrue%2C%22communitySort%22%3A%22name%22%2C%22isCubeEnabled%22%3Atrue%7D%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22searchQuery%22%3Anull%2C%22filter%22%3A%7B%22sort%22%3A%22last_added%22%2C%22chainIds%22%3A%5B%5D%2C%22tab%22%3A%22quests%22%2C%22difficulties%22%3A%5B%5D%2C%22types%22%3A%5B%5D%2C%22rewards%22%3A%5B%5D%2C%22hideCompleted%22%3Afalse%2C%22hideUncompleted%22%3Afalse%2C%22hideExpired%22%3Atrue%2C%22communitySort%22%3A%22name%22%2C%22isCubeEnabled%22%3Atrue%7D%7D%7D%2C%222%22%3A%7B%22json%22%3A%7B%22searchQuery%22%3Anull%2C%22filter%22%3A%7B%22sort%22%3A%22last_added%22%2C%22chainIds%22%3A%5B%5D%2C%22tab%22%3A%22quests%22%2C%22difficulties%22%3A%5B%5D%2C%22types%22%3A%5B%5D%2C%22rewards%22%3A%5B%5D%2C%22hideCompleted%22%3Afalse%2C%22hideUncompleted%22%3Afalse%2C%22hideExpired%22%3Atrue%2C%22communitySort%22%3A%22name%22%2C%22isCubeEnabled%22%3Atrue%7D%7D%7D%7D"
